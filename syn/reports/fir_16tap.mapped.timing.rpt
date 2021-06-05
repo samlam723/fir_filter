@@ -1,0 +1,335 @@
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -nets
+        -max_paths 1
+        -transition_time
+Design : fir_16tap
+Version: I-2013.12-SP5-5
+Date   : Fri May  7 21:05:24 2021
+****************************************
+
+Operating Conditions: slow   Library: NangateOpenCellLibrary
+Wire Load Model Mode: top
+
+  Startpoint: x[0] (input port clocked by clk)
+  Endpoint: y[25] (output port clocked by clk)
+  Path Group: FEEDTHROUGH
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  fir_16tap          5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                                       Fanout     Trans      Incr       Path      Attributes
+  ---------------------------------------------------------------------------------------------------------
+  clock clk (rise edge)                                             0.00       0.00
+  clock network delay (ideal)                                       0.00       0.00
+  input external delay                                             90.00      90.00 f
+  x[0] (in)                                               0.10      0.00      90.00 f
+  x[0] (net)                                    3                   0.00      90.00 f
+  add_0_root_add_0_root_add_94/B[0] (fir_16tap_DW01_add_0)          0.00      90.00 f
+  add_0_root_add_0_root_add_94/B[0] (net)                           0.00      90.00 f
+  add_0_root_add_0_root_add_94/U21/ZN (AND2_X1)           0.02      0.16      90.16 f
+  add_0_root_add_0_root_add_94/n21 (net)        1                   0.00      90.16 f
+  add_0_root_add_0_root_add_94/U1_1/CO (FA_X1)            0.05      0.28      90.44 f    mo 
+  add_0_root_add_0_root_add_94/carry[2] (net)     1                 0.00      90.44 f
+  add_0_root_add_0_root_add_94/U1_2/CO (FA_X1)            0.05      0.30      90.74 f    mo 
+  add_0_root_add_0_root_add_94/carry[3] (net)     1                 0.00      90.74 f
+  add_0_root_add_0_root_add_94/U1_3/CO (FA_X1)            0.05      0.30      91.03 f    mo 
+  add_0_root_add_0_root_add_94/carry[4] (net)     1                 0.00      91.03 f
+  add_0_root_add_0_root_add_94/U1_4/CO (FA_X1)            0.05      0.30      91.33 f    mo 
+  add_0_root_add_0_root_add_94/carry[5] (net)     1                 0.00      91.33 f
+  add_0_root_add_0_root_add_94/U1_5/CO (FA_X1)            0.05      0.30      91.62 f    mo 
+  add_0_root_add_0_root_add_94/carry[6] (net)     1                 0.00      91.62 f
+  add_0_root_add_0_root_add_94/U1_6/CO (FA_X1)            0.05      0.30      91.92 f    mo 
+  add_0_root_add_0_root_add_94/carry[7] (net)     1                 0.00      91.92 f
+  add_0_root_add_0_root_add_94/U1_7/CO (FA_X1)            0.05      0.30      92.21 f    mo 
+  add_0_root_add_0_root_add_94/carry[8] (net)     1                 0.00      92.21 f
+  add_0_root_add_0_root_add_94/U1_8/CO (FA_X1)            0.05      0.30      92.51 f    mo 
+  add_0_root_add_0_root_add_94/carry[9] (net)     1                 0.00      92.51 f
+  add_0_root_add_0_root_add_94/U1_9/CO (FA_X1)            0.05      0.30      92.80 f    mo 
+  add_0_root_add_0_root_add_94/carry[10] (net)     1                0.00      92.80 f
+  add_0_root_add_0_root_add_94/U1_10/CO (FA_X1)           0.05      0.30      93.10 f    mo 
+  add_0_root_add_0_root_add_94/carry[11] (net)     1                0.00      93.10 f
+  add_0_root_add_0_root_add_94/U1_11/CO (FA_X1)           0.05      0.30      93.39 f    mo 
+  add_0_root_add_0_root_add_94/carry[12] (net)     1                0.00      93.39 f
+  add_0_root_add_0_root_add_94/U1_12/CO (FA_X1)           0.05      0.30      93.69 f    mo 
+  add_0_root_add_0_root_add_94/carry[13] (net)     1                0.00      93.69 f
+  add_0_root_add_0_root_add_94/U1_13/CO (FA_X1)           0.05      0.30      93.98 f    mo 
+  add_0_root_add_0_root_add_94/carry[14] (net)     1                0.00      93.98 f
+  add_0_root_add_0_root_add_94/U1_14/CO (FA_X1)           0.05      0.30      94.28 f    mo 
+  add_0_root_add_0_root_add_94/carry[15] (net)     1                0.00      94.28 f
+  add_0_root_add_0_root_add_94/U1_15/CO (FA_X1)           0.05      0.30      94.58 f    mo 
+  add_0_root_add_0_root_add_94/carry[16] (net)     2                0.00      94.58 f
+  add_0_root_add_0_root_add_94/U19/ZN (AND2_X1)           0.02      0.14      94.72 f
+  add_0_root_add_0_root_add_94/n19 (net)        2                   0.00      94.72 f
+  add_0_root_add_0_root_add_94/U15/ZN (AND2_X1)           0.02      0.12      94.85 f
+  add_0_root_add_0_root_add_94/n15 (net)        2                   0.00      94.85 f
+  add_0_root_add_0_root_add_94/U16/ZN (AND2_X1)           0.02      0.12      94.97 f
+  add_0_root_add_0_root_add_94/n16 (net)        2                   0.00      94.97 f
+  add_0_root_add_0_root_add_94/U11/ZN (AND2_X1)           0.02      0.12      95.10 f
+  add_0_root_add_0_root_add_94/n11 (net)        2                   0.00      95.10 f
+  add_0_root_add_0_root_add_94/U12/ZN (AND2_X1)           0.02      0.12      95.22 f
+  add_0_root_add_0_root_add_94/n12 (net)        2                   0.00      95.22 f
+  add_0_root_add_0_root_add_94/U9/ZN (AND2_X1)            0.02      0.12      95.34 f
+  add_0_root_add_0_root_add_94/n9 (net)         2                   0.00      95.34 f
+  add_0_root_add_0_root_add_94/U1/ZN (AND2_X1)            0.02      0.12      95.47 f
+  add_0_root_add_0_root_add_94/n1 (net)         2                   0.00      95.47 f
+  add_0_root_add_0_root_add_94/U2/ZN (AND2_X1)            0.02      0.12      95.59 f
+  add_0_root_add_0_root_add_94/n2 (net)         2                   0.00      95.59 f
+  add_0_root_add_0_root_add_94/U3/ZN (AND2_X1)            0.02      0.12      95.72 f
+  add_0_root_add_0_root_add_94/n3 (net)         2                   0.00      95.72 f
+  add_0_root_add_0_root_add_94/U4/Z (XOR2_X1)             0.03      0.22      95.93 f
+  add_0_root_add_0_root_add_94/SUM[25] (net)     1                  0.00      95.93 f
+  add_0_root_add_0_root_add_94/SUM[25] (fir_16tap_DW01_add_0)       0.00      95.93 f
+  y[25] (net)                                                       0.00      95.93 f
+  y[25] (out)                                             0.03      0.01      95.94 f
+  data arrival time                                                           95.94
+
+  clock clk (rise edge)                                           200.00     200.00
+  clock network delay (ideal)                                       0.00     200.00
+  output external delay                                           -90.00     110.00
+  data required time                                                         110.00
+  ---------------------------------------------------------------------------------------------------------
+  data required time                                                         110.00
+  data arrival time                                                          -95.94
+  ---------------------------------------------------------------------------------------------------------
+  slack (MET)                                                                 14.06
+
+
+  Startpoint: x[0] (input port clocked by clk)
+  Endpoint: q1/q_reg_0_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: REGIN
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  fir_16tap          5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  clock clk (rise edge)                              0.00       0.00
+  clock network delay (ideal)                        0.00       0.00
+  input external delay                              90.00      90.00 f
+  x[0] (in)                                0.10      0.00      90.00 f
+  x[0] (net)                     3                   0.00      90.00 f
+  q1/d[0] (dff_16bit_0)                              0.00      90.00 f
+  q1/d[0] (net)                                      0.00      90.00 f
+  q1/q_reg_0_/D (DFFR_X1)                  0.10      0.01      90.01 f
+  data arrival time                                            90.01
+
+  clock clk (rise edge)                            200.00     200.00
+  clock network delay (ideal)                        0.00     200.00
+  q1/q_reg_0_/CK (DFFR_X1)                           0.00     200.00 r
+  library setup time                                -0.20     199.80
+  data required time                                          199.80
+  ------------------------------------------------------------------------------------------
+  data required time                                          199.80
+  data arrival time                                           -90.01
+  ------------------------------------------------------------------------------------------
+  slack (MET)                                                 109.79
+
+
+  Startpoint: q13/q_reg_0_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: y[25] (output port clocked by clk)
+  Path Group: REGOUT
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  fir_16tap          5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                                       Fanout     Trans      Incr       Path      Attributes
+  ---------------------------------------------------------------------------------------------------------
+  clock clk (rise edge)                                             0.00       0.00
+  clock network delay (ideal)                                       0.00       0.00
+  q13/q_reg_0_/CK (DFFR_X1)                               0.00      0.00       0.00 r
+  q13/q_reg_0_/Q (DFFR_X1)                                0.08      0.40       0.40 r
+  q13/q[0] (net)                                4                   0.00       0.40 r
+  q13/q[0] (dff_16bit_3)                                            0.00       0.40 r
+  m12[0] (net)                                                      0.00       0.40 r
+  mult_75/a[0] (fir_16tap_DW_mult_uns_2)                            0.00       0.40 r
+  mult_75/a[0] (net)                                                0.00       0.40 r
+  mult_75/U43/ZN (INV_X1)                                 0.02      0.06       0.46 f
+  mult_75/n95 (net)                             1                   0.00       0.46 f
+  mult_75/U20/S (HA_X1)                                   0.04      0.23       0.69 f
+  mult_75/product[2] (net)                      1                   0.00       0.69 f
+  mult_75/product[2] (fir_16tap_DW_mult_uns_2)                      0.00       0.69 f
+  m40_2_ (net)                                                      0.00       0.69 f
+  add_10_root_add_0_root_add_94/B[2] (fir_16tap_DW01_add_8)         0.00       0.69 f
+  add_10_root_add_0_root_add_94/B[2] (net)                          0.00       0.69 f
+  add_10_root_add_0_root_add_94/U1_2/S (FA_X1)            0.06      0.42       1.12 f    mo 
+  add_10_root_add_0_root_add_94/SUM[2] (net)     1                  0.00       1.12 f
+  add_10_root_add_0_root_add_94/SUM[2] (fir_16tap_DW01_add_8)       0.00       1.12 f
+  m25_2_ (net)                                                      0.00       1.12 f
+  add_7_root_add_0_root_add_94/B[2] (fir_16tap_DW01_add_7)          0.00       1.12 f
+  add_7_root_add_0_root_add_94/B[2] (net)                           0.00       1.12 f
+  add_7_root_add_0_root_add_94/U1_2/S (FA_X1)             0.06      0.44       1.55 f    mo 
+  add_7_root_add_0_root_add_94/SUM[2] (net)     1                   0.00       1.55 f
+  add_7_root_add_0_root_add_94/SUM[2] (fir_16tap_DW01_add_7)        0.00       1.55 f
+  n16 (net)                                                         0.00       1.55 f
+  add_5_root_add_0_root_add_94/A[2] (fir_16tap_DW01_add_5)          0.00       1.55 f
+  add_5_root_add_0_root_add_94/A[2] (net)                           0.00       1.55 f
+  add_5_root_add_0_root_add_94/U1_2/S (FA_X1)             0.06      0.45       2.00 f    mo 
+  add_5_root_add_0_root_add_94/SUM[2] (net)     1                   0.00       2.00 f
+  add_5_root_add_0_root_add_94/SUM[2] (fir_16tap_DW01_add_5)        0.00       2.00 f
+  m35_2_ (net)                                                      0.00       2.00 f
+  add_4_root_add_0_root_add_94/B[2] (fir_16tap_DW01_add_4)          0.00       2.00 f
+  add_4_root_add_0_root_add_94/B[2] (net)                           0.00       2.00 f
+  add_4_root_add_0_root_add_94/U1_2/S (FA_X1)             0.06      0.44       2.44 f    mo 
+  add_4_root_add_0_root_add_94/SUM[2] (net)     1                   0.00       2.44 f
+  add_4_root_add_0_root_add_94/SUM[2] (fir_16tap_DW01_add_4)        0.00       2.44 f
+  n38 (net)                                                         0.00       2.44 f
+  add_2_root_add_0_root_add_94/A[2] (fir_16tap_DW01_add_3)          0.00       2.44 f
+  add_2_root_add_0_root_add_94/A[2] (net)                           0.00       2.44 f
+  add_2_root_add_0_root_add_94/U1_2/S (FA_X1)             0.06      0.45       2.88 f    mo 
+  add_2_root_add_0_root_add_94/SUM[2] (net)     1                   0.00       2.88 f
+  add_2_root_add_0_root_add_94/SUM[2] (fir_16tap_DW01_add_3)        0.00       2.88 f
+  n84 (net)                                                         0.00       2.88 f
+  add_1_root_add_0_root_add_94/B[2] (fir_16tap_DW01_add_1)          0.00       2.88 f
+  add_1_root_add_0_root_add_94/B[2] (net)                           0.00       2.88 f
+  add_1_root_add_0_root_add_94/U1_2/CO (FA_X1)            0.05      0.34       3.22 f    mo 
+  add_1_root_add_0_root_add_94/carry[3] (net)     1                 0.00       3.22 f
+  add_1_root_add_0_root_add_94/U1_3/CO (FA_X1)            0.05      0.30       3.52 f    mo 
+  add_1_root_add_0_root_add_94/carry[4] (net)     1                 0.00       3.52 f
+  add_1_root_add_0_root_add_94/U1_4/CO (FA_X1)            0.05      0.30       3.81 f    mo 
+  add_1_root_add_0_root_add_94/carry[5] (net)     1                 0.00       3.81 f
+  add_1_root_add_0_root_add_94/U1_5/CO (FA_X1)            0.05      0.30       4.11 f    mo 
+  add_1_root_add_0_root_add_94/carry[6] (net)     1                 0.00       4.11 f
+  add_1_root_add_0_root_add_94/U1_6/CO (FA_X1)            0.05      0.30       4.40 f    mo 
+  add_1_root_add_0_root_add_94/carry[7] (net)     1                 0.00       4.40 f
+  add_1_root_add_0_root_add_94/U1_7/CO (FA_X1)            0.05      0.30       4.70 f    mo 
+  add_1_root_add_0_root_add_94/carry[8] (net)     1                 0.00       4.70 f
+  add_1_root_add_0_root_add_94/U1_8/CO (FA_X1)            0.05      0.30       4.99 f    mo 
+  add_1_root_add_0_root_add_94/carry[9] (net)     1                 0.00       4.99 f
+  add_1_root_add_0_root_add_94/U1_9/CO (FA_X1)            0.05      0.30       5.29 f    mo 
+  add_1_root_add_0_root_add_94/carry[10] (net)     1                0.00       5.29 f
+  add_1_root_add_0_root_add_94/U1_10/CO (FA_X1)           0.05      0.30       5.58 f    mo 
+  add_1_root_add_0_root_add_94/carry[11] (net)     1                0.00       5.58 f
+  add_1_root_add_0_root_add_94/U1_11/CO (FA_X1)           0.05      0.30       5.88 f    mo 
+  add_1_root_add_0_root_add_94/carry[12] (net)     1                0.00       5.88 f
+  add_1_root_add_0_root_add_94/U1_12/CO (FA_X1)           0.05      0.30       6.18 f    mo 
+  add_1_root_add_0_root_add_94/carry[13] (net)     1                0.00       6.18 f
+  add_1_root_add_0_root_add_94/U1_13/CO (FA_X1)           0.05      0.30       6.47 f    mo 
+  add_1_root_add_0_root_add_94/carry[14] (net)     1                0.00       6.47 f
+  add_1_root_add_0_root_add_94/U1_14/CO (FA_X1)           0.05      0.30       6.77 f    mo 
+  add_1_root_add_0_root_add_94/carry[15] (net)     1                0.00       6.77 f
+  add_1_root_add_0_root_add_94/U1_15/CO (FA_X1)           0.05      0.30       7.06 f    mo 
+  add_1_root_add_0_root_add_94/carry[16] (net)     1                0.00       7.06 f
+  add_1_root_add_0_root_add_94/U1_16/CO (FA_X1)           0.05      0.30       7.36 f    mo 
+  add_1_root_add_0_root_add_94/carry[17] (net)     1                0.00       7.36 f
+  add_1_root_add_0_root_add_94/U1_17/CO (FA_X1)           0.05      0.30       7.65 f    mo 
+  add_1_root_add_0_root_add_94/carry[18] (net)     1                0.00       7.65 f
+  add_1_root_add_0_root_add_94/U1_18/CO (FA_X1)           0.05      0.30       7.95 f    mo 
+  add_1_root_add_0_root_add_94/carry[19] (net)     1                0.00       7.95 f
+  add_1_root_add_0_root_add_94/U1_19/CO (FA_X1)           0.05      0.30       8.24 f    mo 
+  add_1_root_add_0_root_add_94/carry[20] (net)     1                0.00       8.24 f
+  add_1_root_add_0_root_add_94/U1_20/CO (FA_X1)           0.05      0.30       8.55 f    mo 
+  add_1_root_add_0_root_add_94/carry[21] (net)     2                0.00       8.55 f
+  add_1_root_add_0_root_add_94/U7/ZN (AND2_X1)            0.02      0.14       8.69 f
+  add_1_root_add_0_root_add_94/n7 (net)         2                   0.00       8.69 f
+  add_1_root_add_0_root_add_94/U1/ZN (AND2_X1)            0.02      0.12       8.81 f
+  add_1_root_add_0_root_add_94/n1 (net)         2                   0.00       8.81 f
+  add_1_root_add_0_root_add_94/U5/Z (XOR2_X1)             0.04      0.23       9.04 f
+  add_1_root_add_0_root_add_94/SUM[23] (net)     2                  0.00       9.04 f
+  add_1_root_add_0_root_add_94/SUM[23] (fir_16tap_DW01_add_1)       0.00       9.04 f
+  n130 (net)                                                        0.00       9.04 f
+  add_0_root_add_0_root_add_94/A[23] (fir_16tap_DW01_add_0)         0.00       9.04 f
+  add_0_root_add_0_root_add_94/A[23] (net)                          0.00       9.04 f
+  add_0_root_add_0_root_add_94/U2/ZN (AND2_X1)            0.02      0.13       9.17 f
+  add_0_root_add_0_root_add_94/n2 (net)         2                   0.00       9.17 f
+  add_0_root_add_0_root_add_94/U3/ZN (AND2_X1)            0.02      0.12       9.29 f
+  add_0_root_add_0_root_add_94/n3 (net)         2                   0.00       9.29 f
+  add_0_root_add_0_root_add_94/U4/Z (XOR2_X1)             0.03      0.22       9.51 f
+  add_0_root_add_0_root_add_94/SUM[25] (net)     1                  0.00       9.51 f
+  add_0_root_add_0_root_add_94/SUM[25] (fir_16tap_DW01_add_0)       0.00       9.51 f
+  y[25] (net)                                                       0.00       9.51 f
+  y[25] (out)                                             0.03      0.01       9.51 f
+  data arrival time                                                            9.51
+
+  clock clk (rise edge)                                           200.00     200.00
+  clock network delay (ideal)                                       0.00     200.00
+  output external delay                                           -90.00     110.00
+  data required time                                                         110.00
+  ---------------------------------------------------------------------------------------------------------
+  data required time                                                         110.00
+  data arrival time                                                           -9.51
+  ---------------------------------------------------------------------------------------------------------
+  slack (MET)                                                                100.49
+
+
+  Startpoint: q10/q_reg_2_
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: q11/q_reg_2_
+            (rising edge-triggered flip-flop clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Des/Clust/Port     Wire Load Model       Library
+  ------------------------------------------------
+  fir_16tap          5K_hvratio_1_1        NangateOpenCellLibrary
+
+Attributes:
+    d - dont_touch
+    u - dont_use
+   mo - map_only
+   so - size_only
+    i - ideal_net or ideal_network
+  inf - infeasible path
+
+  Point                        Fanout     Trans      Incr       Path      Attributes
+  ------------------------------------------------------------------------------------------
+  clock clk (rise edge)                              0.00       0.00
+  clock network delay (ideal)                        0.00       0.00
+  q10/q_reg_2_/CK (DFFR_X1)                0.00      0.00       0.00 r
+  q10/q_reg_2_/Q (DFFR_X1)                 0.12      0.43       0.43 r
+  q10/q[2] (net)                 4                   0.00       0.43 r
+  q10/q[2] (dff_16bit_6)                             0.00       0.43 r
+  m9[2] (net)                                        0.00       0.43 r
+  q11/d[2] (dff_16bit_5)                             0.00       0.43 r
+  q11/d[2] (net)                                     0.00       0.43 r
+  q11/q_reg_2_/D (DFFR_X1)                 0.12      0.01       0.45 r
+  data arrival time                                             0.45
+
+  clock clk (rise edge)                            200.00     200.00
+  clock network delay (ideal)                        0.00     200.00
+  q11/q_reg_2_/CK (DFFR_X1)                          0.00     200.00 r
+  library setup time                                -0.12     199.88
+  data required time                                          199.88
+  ------------------------------------------------------------------------------------------
+  data required time                                          199.88
+  data arrival time                                            -0.45
+  ------------------------------------------------------------------------------------------
+  slack (MET)                                                 199.43
+
+
+1

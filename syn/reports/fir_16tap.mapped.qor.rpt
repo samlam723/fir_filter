@@ -1,0 +1,122 @@
+ 
+****************************************
+Report : qor
+Design : fir_16tap
+Version: I-2013.12-SP5-5
+Date   : Fri May  7 21:05:24 2021
+****************************************
+
+
+  Timing Path Group 'FEEDTHROUGH'
+  -----------------------------------
+  Levels of Logic:              26.00
+  Critical Path Length:          5.94
+  Critical Path Slack:          14.06
+  Critical Path Clk Period:    200.00
+  Total Negative Slack:          0.00
+  No. of Violating Paths:        0.00
+  Worst Hold Violation:          0.00
+  Total Hold Violation:          0.00
+  No. of Hold Violations:        0.00
+  -----------------------------------
+
+  Timing Path Group 'REGIN'
+  -----------------------------------
+  Levels of Logic:               0.00
+  Critical Path Length:          0.01
+  Critical Path Slack:         109.79
+  Critical Path Clk Period:    200.00
+  Total Negative Slack:          0.00
+  No. of Violating Paths:        0.00
+  Worst Hold Violation:          0.00
+  Total Hold Violation:          0.00
+  No. of Hold Violations:        0.00
+  -----------------------------------
+
+  Timing Path Group 'REGOUT'
+  -----------------------------------
+  Levels of Logic:              32.00
+  Critical Path Length:          9.51
+  Critical Path Slack:         100.49
+  Critical Path Clk Period:    200.00
+  Total Negative Slack:          0.00
+  No. of Violating Paths:        0.00
+  Worst Hold Violation:          0.00
+  Total Hold Violation:          0.00
+  No. of Hold Violations:        0.00
+  -----------------------------------
+
+  Timing Path Group 'clk'
+  -----------------------------------
+  Levels of Logic:               0.00
+  Critical Path Length:          0.45
+  Critical Path Slack:         199.43
+  Critical Path Clk Period:    200.00
+  Total Negative Slack:          0.00
+  No. of Violating Paths:        0.00
+  Worst Hold Violation:          0.00
+  Total Hold Violation:          0.00
+  No. of Hold Violations:        0.00
+  -----------------------------------
+
+
+  Cell Count
+  -----------------------------------
+  Hierarchical Cell Count:         35
+  Hierarchical Port Count:       1702
+  Leaf Cell Count:                878
+  Buf/Inv Cell Count:              71
+  Buf Cell Count:                  18
+  Inv Cell Count:                  53
+  CT Buf/Inv Cell Count:            0
+  Combinational Cell Count:       638
+  Sequential Cell Count:          240
+  Macro Count:                      0
+  -----------------------------------
+
+
+  Area
+  -----------------------------------
+  Combinational Area:     2115.764019
+  Noncombinational Area:  1276.800041
+  Buf/Inv Area:             42.560000
+  Total Buffer Area:            14.36
+  Total Inverter Area:          28.20
+  Macro/Black Box Area:      0.000000
+  Net Area:                  0.000000
+  -----------------------------------
+  Cell Area:              3392.564060
+  Design Area:            3392.564060
+
+
+  Design Rules
+  -----------------------------------
+  Total Number of Nets:          1418
+  Nets With Violations:             0
+  Max Trans Violations:             0
+  Max Cap Violations:               0
+  -----------------------------------
+
+
+  Hostname: EEX052
+
+  Compile CPU Statistics
+  -----------------------------------------
+  Resource Sharing:                    0.00
+  Logic Optimization:                  0.00
+  Mapping Optimization:                0.00
+  -----------------------------------------
+  Overall Compile Time:                1.79
+  Overall Compile Wall Clock Time:     6.38
+
+  --------------------------------------------------------------------
+
+  Design  WNS: 0.00  TNS: 0.00  Number of Violating Paths: 0
+
+
+  Design (Hold)  WNS: 0.00  TNS: 0.00  Number of Violating Paths: 0
+
+  --------------------------------------------------------------------
+
+
+1
