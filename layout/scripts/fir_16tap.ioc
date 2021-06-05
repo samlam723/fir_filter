@@ -1,0 +1,87 @@
+################################################################################
+# Filename: fir_16tap.ioc
+# Author: Lam King Sum, Sam
+# Email: ksalmaf@connect.ust.hk
+# Affiliation: Hong Kong University of Science and Technology
+# ------------------------------------------------------------------------------
+#
+# This file defines the IO location constraint of the divider module. The input
+# pins are allocated at the left and right edge (on Metal 5). The output pins
+# are allocated at the top and bottom edge (on Metal 6). The space between each
+# pin is set as 1.5um. There is an offset of 1um to ensure the module pins do
+# not have any overlap with each other. Each pin dimension is set to be 0.14um x
+# 0.14um.
+#
+# Note: if we do not provide the IO location constraint for our divider module,
+# the Encounter will randomly place our pins.
+################################################################################
+
+(globals
+    version = 3
+    io_order = default
+    space = 1.5
+)
+(iopin
+	(top
+	(pin name="x[0]"	 layer=6 width=0.1400 depth=0.1400 offset=1.0)
+	(pin name="x[1]"	 layer=6 width=0.1400 depth=0.1400 )
+	(pin name="x[2]"	 layer=6 width=0.1400 depth=0.1400 )
+	(pin name="x[3]"	 layer=6 width=0.1400 depth=0.1400 )
+	(pin name="x[4]"	 layer=6 width=0.1400 depth=0.1400 )
+	(pin name="x[5]"	 layer=6 width=0.1400 depth=0.1400 )
+	(pin name="x[6]"	 layer=6 width=0.1400 depth=0.1400 )
+	(pin name="x[7]"	 layer=6 width=0.1400 depth=0.1400 )
+	(pin name="x[8]"	 layer=6 width=0.1400 depth=0.1400 )
+	(pin name="x[9]"	 layer=6 width=0.1400 depth=0.1400 )
+	(pin name="x[10]"	 layer=6 width=0.1400 depth=0.1400 )
+	(pin name="x[11]"	 layer=6 width=0.1400 depth=0.1400 )
+	(pin name="x[12]"	 layer=6 width=0.1400 depth=0.1400 )
+	(pin name="x[13]"	 layer=6 width=0.1400 depth=0.1400 )
+	(pin name="x[14]"	 layer=6 width=0.1400 depth=0.1400 )
+	(pin name="x[15]"	 layer=6 width=0.1400 depth=0.1400 )
+	(pin name="clk"	 layer=6 width=0.1400 depth=0.1400 )
+	(pin name="reset"	 layer=6 width=0.1400 depth=0.1400 )
+)
+    (left
+	
+    )
+    (right
+	
+    )
+    (bottom
+	(pin name="y[0]"	 layer=6 width=0.1400 depth=0.1400 offset=1.0)
+	(pin name="y[1]"	 layer=6 width=0.1400 depth=0.1400 )
+	(pin name="y[2]"	 layer=6 width=0.1400 depth=0.1400 )
+	(pin name="y[3]"	 layer=6 width=0.1400 depth=0.1400 )
+	(pin name="y[4]"	 layer=6 width=0.1400 depth=0.1400 )
+	(pin name="y[5]"	 layer=6 width=0.1400 depth=0.1400 )
+	(pin name="y[6]"	 layer=6 width=0.1400 depth=0.1400 )
+	(pin name="y[7]"	 layer=6 width=0.1400 depth=0.1400 )
+	(pin name="y[8]"	 layer=6 width=0.1400 depth=0.1400 )
+	(pin name="y[9]"	 layer=6 width=0.1400 depth=0.1400 )
+	(pin name="y[10]"	 layer=6 width=0.1400 depth=0.1400 )
+	(pin name="y[11]"	 layer=6 width=0.1400 depth=0.1400 )
+	(pin name="y[12]"	 layer=6 width=0.1400 depth=0.1400 )
+	(pin name="y[13]"	 layer=6 width=0.1400 depth=0.1400 )
+	(pin name="y[14]"	 layer=6 width=0.1400 depth=0.1400 )
+	(pin name="y[15]"	 layer=6 width=0.1400 depth=0.1400 )
+	(pin name="y[16]"	 layer=6 width=0.1400 depth=0.1400 )
+	(pin name="y[17]"	 layer=6 width=0.1400 depth=0.1400 )
+	(pin name="y[18]"	 layer=6 width=0.1400 depth=0.1400 )
+	(pin name="y[19]"	 layer=6 width=0.1400 depth=0.1400 )
+	(pin name="y[20]"	 layer=6 width=0.1400 depth=0.1400 )
+	(pin name="y[21]"	 layer=6 width=0.1400 depth=0.1400 )
+	(pin name="y[22]"	 layer=6 width=0.1400 depth=0.1400 )
+	(pin name="y[23]"	 layer=6 width=0.1400 depth=0.1400 )
+	(pin name="y[24]"	 layer=6 width=0.1400 depth=0.1400 )
+	(pin name="y[25]"	 layer=6 width=0.1400 depth=0.1400 )
+	(pin name="y[26]"	 layer=6 width=0.1400 depth=0.1400 )
+	(pin name="y[27]"	 layer=6 width=0.1400 depth=0.1400 )
+	(pin name="y[28]"	 layer=6 width=0.1400 depth=0.1400 )
+	(pin name="y[29]"	 layer=6 width=0.1400 depth=0.1400 )
+	(pin name="y[30]"	 layer=6 width=0.1400 depth=0.1400 )
+	(pin name="y[31]"	 layer=6 width=0.1400 depth=0.1400 )
+	(pin name="y[32]"	 layer=6 width=0.1400 depth=0.1400 )
+	(pin name="y[33]"	 layer=6 width=0.1400 depth=0.1400 )
+	)
+)
